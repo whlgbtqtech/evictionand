@@ -1,3 +1,4 @@
+#manifest.yml
 ---
 applications:
 - name: evictionand

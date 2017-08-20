@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+font-family: 'Montserrat', sans-serif;
+
+.eviction {
+	width: 105.5px;
+	height: 28.5px;
+	font-family: OpenSans;
+	font-size: 21px;
+	font-weight: 800;
+	letter-spacing: 0.2px;
+	text-align: center;
+	color: #597799;
+}
+
+.nav-bar {
+	width: 214px;
+	height: 14.5px;
+}
+
+.modal-background {
+	width: 106.5px;
+	height: 223.5px;
+	opacity: 0.85;
+	border-radius: 2px;
+	background-color: #cdcdcd;
+}
+
+.rectangle-1 {
+	width: 398.5px;
+	height: 369px;
+	border-radius: 3.5px;
+	background-color: #eddbcd;
+	box-shadow: 0 3.5px 10px 0 rgba(0, 0, 0, 0.5);
+	border: solid 0.5px #979797;
+}
+
+map-ssquare {
+	width: 93px;
+	height: 86.5px;
+	opacity: 0.12;
+	background-color: #000000;
+}
+
+map-long {
+	width: 62px;
+	height: 113px;
+	opacity: 0.12;
+	background-color: #000000;
+}
+
+map-squat {
+	width: 93px;
+	height: 64px;
+	opacity: 0.12;
+	background-color: #000000;
+}
+
+/* footer text  */
+
+.houston-like-other {
+	width: 231.2px;
+	height: 35px;
+	font-family: OpenSans;
+	font-size: 5px;
+	letter-spacing: 0.2px;
+	text-align: left;
+	color: #000000;
+}
