@@ -1,0 +1,6 @@
+---
+applications:
+- name: evictionand
+  memory: 1024M
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  path: dist/
