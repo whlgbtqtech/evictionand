@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Nav } from './nav';
+import { HaeMap } from './hae-map';
 
 @Component({
   selector: 'app-root',

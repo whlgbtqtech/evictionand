@@ -2,10 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { HaeMapComponent } from './hae-map.component';
+import { NavComponent } from './nav.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HaeMapComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule
