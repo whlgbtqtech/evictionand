@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Nav } from './nav';
 import { HaeMap } from './hae-map';
+import { Footer } from './footer';
 
 @Component({
   selector: 'app-root',

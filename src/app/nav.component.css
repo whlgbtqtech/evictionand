@@ -1,18 +1,12 @@
+.header{
 
-.nav-bar {
+}
+
+.top-nav {
 	width: 214px;
 	height: 14.5px;
 }
 
-.footer-text {
-	width: 231.2px;
-	height: 35px;
-	font-family: 'Montserrat';
-	font-size: 5px;
-	letter-spacing: 0.2px;
-	text-align: left;
-	color: #000000;
-}
 
 .eviction {
 	width: 105.5px;
