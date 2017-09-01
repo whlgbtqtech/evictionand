@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { HaeMapComponent } from './hae-map.component';
 import { NavComponent } from './nav.component';
 import { FooterComponent } from './footer.component';
+import { AboutComponent } from './about/about.component';
+import { BiosComponent } from './bios/bios.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HaeMapComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    BiosComponent
   ],
   imports: [
     BrowserModule
