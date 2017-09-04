@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Nav } from './nav';
-import { HaeMap } from './hae-map';
-import { Footer } from './footer';
+import { Nav } from './nav/nav';
+import { HaeMap } from './hae-map/hae-map';
+import { Footer } from './footer/footer';
 
 @Component({
   selector: 'app-root',
