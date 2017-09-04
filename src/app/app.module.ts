@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { BiosComponent } from './bios/bios.component';
+import { SliderComponent } from './slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BiosComponent } from './bios/bios.component';
     NavComponent,
     FooterComponent,
     AboutComponent,
-    BiosComponent
+    BiosComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule
