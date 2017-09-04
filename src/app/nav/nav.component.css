@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .header{
 
 }
@@ -11,7 +13,7 @@
 .eviction {
 	width: 105.5px;
 	height: 28.5px;
-	font-family: OpenSans;
+  font-family: 'Montserrat', sans-serif;
 	font-size: 21px;
 	font-weight: 800;
 	letter-spacing: 0.2px;

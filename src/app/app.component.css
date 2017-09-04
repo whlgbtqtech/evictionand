@@ -1,12 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-font-family: 'Montserrat', sans-serif;
-
 .eviction {
 	width: 105.5px;
 	height: 28.5px;
-	font-family: OpenSans;
+  font-family: 'Montserrat', sans-serif;
 	font-size: 21px;
 	font-weight: 800;
 	letter-spacing: 0.2px;
@@ -38,7 +36,7 @@ font-family: 'Montserrat', sans-serif;
 .houston-like-other {
 	width: 231.2px;
 	height: 35px;
-	font-family: OpenSans;
+  font-family: 'Montserrat', sans-serif;
 	font-size: 5px;
 	letter-spacing: 0.2px;
 	text-align: left;

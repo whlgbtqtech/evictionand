@@ -1,17 +1,22 @@
 .footer {
-
+	background-color: #eddbcd;
+	width: 100%;
+	height: 100%;
 }
 
 .footer-text-box {
-
+	width: auto;
+	height: auto;
+	background-color: #eddbcd;
 }
 
 .footer-text {
 	width: 231.2px;
 	height: 35px;
-	font-family: 'Montserrat';
-	font-size: 5px;
+	font-family: 'Montserrat',sans-serif;
+	font-size: .5em;
 	letter-spacing: 0.2px;
 	text-align: left;
 	color: #000000;
+	background-color: inherit;
 }
