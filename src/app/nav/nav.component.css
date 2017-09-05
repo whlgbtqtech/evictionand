@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-.header{
+/*.header{
 
 }
 
@@ -19,12 +19,12 @@
 	letter-spacing: 0.2px;
 	text-align: center;
 	color: #597799;
-}
+}*/
 
 nav {
 	margin:0;
 	padding: 0;
-	background-color: #254441;
+	background-color: #eddbcd;
 }
 
 #logo {
