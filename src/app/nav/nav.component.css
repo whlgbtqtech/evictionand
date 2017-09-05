@@ -189,6 +189,7 @@ li > a:only-child:after { content: ''; }
 		width: 100%;
 		text-align: center;
 		float: none;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 	nav {
