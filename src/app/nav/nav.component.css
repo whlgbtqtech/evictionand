@@ -55,7 +55,8 @@ h3 a {
 }
 
 a {
-	color: #FFF;
+	color: #597799;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -93,7 +94,8 @@ nav {
 	float: left;
 	font-size:20px;
 	line-height: 60px;
-	font-fam: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-color: #597799;
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -190,7 +192,7 @@ li > a:only-child:after { content: ''; }
 		width: 100%;
 		text-align: center;
 		float: none;
-		font-family: 'Montserrat', sans-serif;
+		font-color:
 	}
 
 	nav {
