@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Nav } from './nav';
 
 @Component({
-  selector: 'nav',
+  selector: 'navigation',
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.css']
 })
