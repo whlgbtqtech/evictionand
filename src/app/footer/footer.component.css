@@ -5,19 +5,19 @@
 	bottom: 0;
 	width: 100%;
 	overflow: auto;
-	height: 150px;
+	height: auto;
 }
 
 .footer-text-box {
-	max-width: 231.2px;
-	max-height: 35px;
+	max-width: 462.2px;
+	max-height: 70px;
 	background-color: #eddbcd;
 	position: relative;
-	padding-left: 23px;
+	padding-left: 46px;
+  padding-top: 46px;
 }
 
 .footer-text {
-
 	font-family: 'Montserrat',sans-serif;
 	font-size: .5em;
 	letter-spacing: 0.2px;
