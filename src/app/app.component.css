@@ -1,15 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-.eviction {
-	width: 105.5px;
-	height: 28.5px;
-  font-family: 'Montserrat', sans-serif;
-	font-size: 21px;
-	font-weight: 800;
-	letter-spacing: 0.2px;
-	text-align: center;
-	color: #597799;
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
 }
 
 .modal-background {
@@ -27,18 +22,4 @@
 	background-color: #eddbcd;
 	box-shadow: 0 3.5px 10px 0 rgba(0, 0, 0, 0.5);
 	border: solid 0.5px #979797;
-}
-
-
-
-/* footer text  */
-
-.houston-like-other {
-	width: 231.2px;
-	height: 35px;
-  font-family: 'Montserrat', sans-serif;
-	font-size: 5px;
-	letter-spacing: 0.2px;
-	text-align: left;
-	color: #000000;
 }
