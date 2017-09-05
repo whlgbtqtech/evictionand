@@ -11,18 +11,16 @@ import { BiosComponent } from './bios/bios.component';
 import { SliderComponent } from './slider/slider.component';
 import { BioDetailComponent } from './biodetail/biodetail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { AndMapsComponent } from './and-maps/and-maps.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'bio/:id', component: BioDetailComponent },
+  { path: 'and-maps', component: AndMapsComponent },
   {
     path: 'bios',
     component: BiosComponent,
     data: { title: 'EvictionAnd Team' }
-  },
-  { path: '',
-    redirectTo: '/',
-    pathMatch: 'full'
   },
   { path: '**', component: PageNotFoundComponent }
 ];
@@ -31,6 +29,7 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
+    AndMapsComponent,
     HaeMapComponent,
     NavComponent,
     FooterComponent,
@@ -41,7 +40,11 @@ const appRoutes: Routes = [
     PageNotFoundComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true } // <-- debugging purposes only
+    )
   ],
   providers: [],
   bootstrap: [

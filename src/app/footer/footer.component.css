@@ -1,18 +1,23 @@
 .footer {
 	background-color: #eddbcd;
+	position: absolute;
+	left: 0;
+	bottom: 0;
 	width: 100%;
-	height: 100%;
+	overflow: auto;
+	height: 150px;
 }
 
 .footer-text-box {
-	width: auto;
-	height: auto;
+	max-width: 231.2px;
+	max-height: 35px;
 	background-color: #eddbcd;
+	position: relative;
+	padding-left: 23px;
 }
 
 .footer-text {
-	width: 231.2px;
-	height: 35px;
+
 	font-family: 'Montserrat',sans-serif;
 	font-size: .5em;
 	letter-spacing: 0.2px;
