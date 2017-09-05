@@ -93,6 +93,7 @@ nav {
 	float: left;
 	font-size:20px;
 	line-height: 60px;
+	font-fam: 'Montserrat', sans-serif;
 }
 
 /* Since we'll have the "ul li" "float:left"
