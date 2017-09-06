@@ -12,6 +12,9 @@ import { SliderComponent } from './slider/slider.component';
 import { BioDetailComponent } from './biodetail/biodetail.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { AndMapsComponent } from './and-maps/and-maps.component';
+import { AboutEvictionComponent } from './about-eviction/about-eviction.component';
+import { AboutTeamComponent } from './about-team/about-team.component';
+import { AboutFAQComponent } from './about-faq/about-faq.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
@@ -37,7 +40,10 @@ const appRoutes: Routes = [
     BiosComponent,
     SliderComponent,
     BioDetailComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    AboutEvictionComponent,
+    AboutTeamComponent,
+    AboutFAQComponent
   ],
   imports: [
     BrowserModule,
