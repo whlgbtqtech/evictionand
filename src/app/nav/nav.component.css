@@ -64,7 +64,7 @@ h1 {
 	text-align:center;
 	font-size:60px;
 	line-height: 70px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'OpenSans', sans-serif;
 	}
 
 #container {
@@ -94,7 +94,7 @@ nav {
 	float: left;
 	font-size:20px;
 	line-height: 60px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'OpenSans', sans-serif;
 	font-color: #597799;
 }
 
@@ -132,6 +132,7 @@ nav a {
 	color: #597799;
 	font-size:17px;
 	text-decoration:none;
+	text-transform: uppercase;
 }
 
 
@@ -214,8 +215,9 @@ li > a:only-child:after { content: ''; }
 		color:#FFF;
 		font-size:17px;
 		text-decoration:none;
+		text-transform: uppercase;
 		border:none;
-		font-family: 'Montserat', sans-serif;
+		font-family: 'OpenSans', sans-serif;
 	}
 
 	.toggle:hover {
