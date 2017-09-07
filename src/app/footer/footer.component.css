@@ -1,11 +1,11 @@
 .footer {
 	background-color: #eddbcd;
 	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
 	overflow: auto;
-	height: auto;
+	left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
 }
 
 .footer-text-box {

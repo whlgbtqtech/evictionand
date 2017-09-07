@@ -209,16 +209,17 @@ li > a:only-child:after { content: ''; }
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #254441;
+		background-color: #eddbcd;
 		padding:14px 20px;
 		color:#FFF;
 		font-size:17px;
 		text-decoration:none;
 		border:none;
+		font-family: 'Montserat', sans-serif;
 	}
 
 	.toggle:hover {
-		background-color: #000000;
+		background-color: #979797;
 	}
 
 	/* Display Dropdown when clicked on Parent Lable */
