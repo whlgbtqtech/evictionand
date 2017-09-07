@@ -1,0 +1,32 @@
+{ "EvictionAnd":
+  [
+    {
+      "name": "",
+      "location": "",
+      "occupation":"",
+      "projectRole":"",
+      "photoPath":""
+    },
+    {
+      "name": "",
+      "location": "",
+      "occupation":"",
+      "projectRole":"",
+      "photoPath":""
+    },
+    {
+      "name": "",
+      "location": "",
+      "occupation":"",
+      "projectRole": "",
+      "photoPath":""
+    },
+    {
+      "name": "",
+      "location": "",
+      "occupation":"",
+      "projectRole":"",
+      "photoPath":""
+    }
+  ]
+}

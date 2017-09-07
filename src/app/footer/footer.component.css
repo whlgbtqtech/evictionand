@@ -3,8 +3,9 @@
 	position: absolute;
 	overflow: auto;
 	left:0px;
+	right:0px;
   bottom:0px;
-  height:165px;
+  height:125px;
   width:100%;
 }
 
@@ -19,9 +20,9 @@
 
 .footer-text {
 	font-family: 'Montserrat',sans-serif;
-	font-size: .5em;
+	font-size: .6em;
 	letter-spacing: 0.2px;
 	text-align: left;
 	color: #000000;
-	background-color: inherit;
+	background-color: #eddbcd;
 }

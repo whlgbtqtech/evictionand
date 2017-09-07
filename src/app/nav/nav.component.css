@@ -26,7 +26,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 
-body {
+/*body {
 	background: #212121;
 	font-size:22px;
 	line-height: 32px;
@@ -35,7 +35,7 @@ body {
 	padding: 0;
 	word-wrap:break-word !important;
   font-family: 'Montserrat', sans-serif;
-	}
+	}*/
 
 h1 {
 	font-size: 60px;
