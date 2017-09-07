@@ -15,9 +15,13 @@ import { AndMapsComponent } from './and-maps/and-maps.component';
 import { AboutEvictionComponent } from './about-eviction/about-eviction.component';
 import { AboutTeamComponent } from './about-team/about-team.component';
 import { AboutFAQComponent } from './about-faq/about-faq.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
   { path: 'about', component: AboutComponent },
+  { path: 'about-eviction', component: AboutEvictionComponent },
+  { path: 'about-faq', component: AboutFAQComponent },
+  { path: 'about-team', component: AboutTeamComponent },
   { path: 'bio/:id', component: BioDetailComponent },
   { path: 'and-maps', component: AndMapsComponent },
   {
@@ -43,7 +47,8 @@ const appRoutes: Routes = [
     PageNotFoundComponent,
     AboutEvictionComponent,
     AboutTeamComponent,
-    AboutFAQComponent
+    AboutFAQComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

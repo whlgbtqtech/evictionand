@@ -192,7 +192,7 @@ li > a:only-child:after { content: ''; }
 		width: 100%;
 		text-align: center;
 		float: none;
-		font-color:
+		background-image: url(../../assets/img/logo.png);
 	}
 
 	nav {
@@ -275,7 +275,7 @@ li > a:only-child:after { content: ''; }
 		display: none;
 	}
 
-	/* Fisrt Tier Dropdown */
+	/* First Tier Dropdown */
 	nav ul ul li {
 		display: block;
 		width: 100%;
