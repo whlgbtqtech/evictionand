@@ -1,10 +1,5 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule, Routes } from '@angular/router';
-import { HttpClientModule } from '@angular/common/http';
-
-import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { NgModule }              from '@angular/core';
+import { RouterModule, Routes }  from '@angular/router';
 
 import { HaeMapComponent } from './hae-map/hae-map.component';
 import { NavComponent } from './nav/nav.component';
@@ -21,6 +16,7 @@ import { AboutFAQComponent } from './about-faq/about-faq.component';
 import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
+  { path: '', component: HaeMapComponent },
   { path: 'about', component: AboutComponent },
   { path: 'about-eviction', component: AboutEvictionComponent },
   { path: 'about-faq', component: AboutFAQComponent },
@@ -30,32 +26,15 @@ const appRoutes: Routes = [
   { path: '**', component: PageNotFoundComponent }
 ];
 
-
 @NgModule({
-  declarations: [
-    AppComponent,
-    AndMapsComponent,
-    HaeMapComponent,
-    NavComponent,
-    FooterComponent,
-    AboutComponent,
-    BiosComponent,
-    SliderComponent,
-    BioDetailComponent,
-    PageNotFoundComponent,
-    AboutEvictionComponent,
-    AboutTeamComponent,
-    AboutFAQComponent,
-    ContactComponent
-  ],
   imports: [
-    BrowserModule,
-    HttpClientModule,
-    AppRoutingModule
+    RouterModule.forRoot(
+      appRoutes,
+      { enableTracing: true } // <-- debugging purposes only
+    )
   ],
-  providers: [],
-  bootstrap: [
-      AppComponent
+  exports: [
+    RouterModule
   ]
 })
-export class AppModule { }
+export class AppRoutingModule {}

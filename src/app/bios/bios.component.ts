@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Bio } from '../bio';
 
 @Component({
   selector: 'app-bios',
@@ -7,9 +9,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BiosComponent implements OnInit {
 
-  constructor() { }
+  bios: string[];
+  constructor(private http: HttpClient){
+}
 
-  ngOnInit() {
+  ngOnInit(): void {
+    this.http.get('/assets/bios.json').subscribe(data => {
+      console.log(data);
+      this.bios = data['bios'];
+    });
   }
+
 
 }

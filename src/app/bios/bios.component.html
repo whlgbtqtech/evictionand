@@ -1,9 +1,7 @@
 <div class="bios" *ngFor="let bios of bio">
-  <div class="bio-detail">
     Name: {{bio.name}}
     Location: {{bio.location}}
     Occupation: {{bio.occupation}}
     Project Role: {{bio.projectRole}}
-    <img alt="{{bio.name}}" [src]="{{bio.photoPath}}" />
-  </div>
+    <img alt="{{bio.name}}" [src]="bio.photoPath" />
 </div>

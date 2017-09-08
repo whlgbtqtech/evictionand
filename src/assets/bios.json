@@ -1,0 +1,81 @@
+{ "bios":
+  [
+    {
+      "name": "Melanie Toarmina Pang",
+      "location": "Houston, TX",
+      "occupation":"",
+      "projectRole":"Executive Sponsor",
+      "photoPath":"img/MelPang_PridePortraits.jpg"
+    },
+    {
+      "name": "Natarajan Krishnaswami",
+      "location": "",
+      "occupation":"",
+      "projectRole":"Data Analysis, Mapping",
+      "photoPath":"img/nk-tie.jpg"
+    },
+    {
+      "name": "Alex Macalalad",
+      "location": "",
+      "occupation":"",
+      "projectRole": "Data Analysis",
+      "photoPath":"img/pnf.png"
+    },
+    {
+      "name": "Simone Sequeira",
+      "location": "",
+      "occupation":"",
+      "projectRole":"Product Manager",
+      "photoPath":"img/ssequeira square clean.jpg"
+    },
+    {
+      "name": "Mala Kumar",
+      "location": "",
+      "occupation":"",
+      "projectRole":"UX/Data Visualization",
+      "photoPath":"img/pnf.png"
+    },
+    {
+      "name": "Jae Henderson",
+      "location": "",
+      "occupation":"",
+      "projectRole":"Project Manager",
+      "photoPath":"img/JaeHenderson-headshotsmall.jpg"
+    },
+    {
+      "name": "Alex Sayde",
+      "location": "",
+      "occupation":"",
+      "projectRole":"Data Analysis",
+      "photoPath":"img/pnf.png"
+    },
+    {
+      "name": "Tammy Perrin",
+      "location": "",
+      "occupation":"",
+      "projectRole":"",
+      "photoPath":"img/tammy.perrin.jpg"
+    },
+    {
+      "name": "Sarah Jennings",
+      "location": "",
+      "occupation":"",
+      "projectRole":"Desinger, Data Visualization",
+      "photoPath":"img/pnf.png"
+    },
+    {
+      "name": "Sharon Parks",
+      "location": "",
+      "occupation":"",
+      "projectRole":"Designer, Data Visualization",
+      "photoPath":"img/pnf.png"
+    },
+    {
+      "name": "Courtney Wilburn",
+      "location": "Philadelphia, PA",
+      "occupation":"",
+      "projectRole":"Developer",
+      "photoPath":"img/courtneylwt.jpg"
+    }
+  ]
+}
